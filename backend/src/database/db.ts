@@ -15,7 +15,7 @@ class DatabaseStore {
     this.stops = [
       {
         id: 'stop_broadway',
-        name: 'Broadway Bus Terminus',
+        name: 'Broadway Bus Terminus (High Court)',
         nameTamil: 'பிராட்வே பேருந்து நிலையம்',
         lat: 13.0878,
         lng: 80.2835,
@@ -24,7 +24,7 @@ class DatabaseStore {
         landmarks: ['Parrys Corner', 'High Court'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['1', '101', '18A', '21', '21C', '21L', '21X', '221', '26', '26B', '26G', '26K', '26M', '26R', '29A', '2A', '2B', '4', '50', '60A', '88KET', '88R', '8B'],
+        routes: ['1', '101', '17D', '17E', '18A', '21', '21C', '21L', '21X', '221', '26', '26B', '26G', '26K', '26M', '26R', '29A', '2A', '2B', '4', '50', '60A', '88A', '88KET', '88R', '8B'],
         popularity: 99
       },
       {
@@ -38,7 +38,7 @@ class DatabaseStore {
         landmarks: ['Marina Beach', 'Fort St. George'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['1', '102', '102C', '102K', '102P', '102S', '102X', '109', '13', '15', '21', '21C', '21E', '21G', '21L', '21X', '22', '242', '24A', '25', '27B', '29A', '2A', '4', '40A', '40H', '44', '45B', '45E', '8B'],
+        routes: ['1', '102', '102C', '102K', '102P', '102S', '102X', '109', '13', '15', '17D', '17E', '21', '21C', '21E', '21G', '21L', '21X', '22', '242', '24A', '25', '27B', '29A', '2A', '4', '40A', '40H', '44', '45B', '45E', '88A', '8B'],
         popularity: 97
       },
       {
@@ -52,7 +52,7 @@ class DatabaseStore {
         landmarks: ['Royapuram Railway Station'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['120', '150', '188C', '18A', '26', '26B', '26G', '26K', '26M', '26R', '50', '54', '60A'],
+        routes: ['120', '150', '188C', '18A', '26G', '26K', '26M', '26R', '50', '54', '60A'],
         popularity: 93
       },
       {
@@ -80,7 +80,7 @@ class DatabaseStore {
         landmarks: ['Ranganathan Street', 'Panagal Park'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['13', '154', '19', '19A', '19B', '19C', '19D', '19T', '23C', '3', '47T', '49A', '597', '72', 'M27'],
+        routes: ['12B', '13', '154', '19', '19A', '19B', '19C', '19D', '19T', '23C', '3', '47T', '49A', '597', '72', 'M27'],
         popularity: 99
       },
       {
@@ -234,7 +234,7 @@ class DatabaseStore {
         landmarks: ['Blind School Signal'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['101', '153', '154', '25', '37', '49A', '54', '578', '591', '66', '66J'],
+        routes: ['101', '153', '154', '25', '37', '37G', '49A', '54', '578', '591', '597', '66', '66J'],
         popularity: 96
       },
       {
@@ -332,7 +332,7 @@ class DatabaseStore {
         landmarks: ['Ramachandra Hospital', 'Porur Lake'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['154', '25', '26B', '26M', '26R', '37', '54', '85', '88K', 'S27'],
+        routes: ['154', '25', '26', '26B', '26M', '26R', '37', '37G', '54', '597', '85', '88K', 'S27'],
         popularity: 95
       },
       {
@@ -357,11 +357,11 @@ class DatabaseStore {
         lng: 80.1885,
         area: 'Valasaravakkam',
         district: 'Chennai',
-        landmarks: ['Police Station'],
+        landmarks: ['Police Station', 'Chaudhary Flyover'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['25', '88K'],
-        popularity: 89
+        routes: ['25', '26', '26B', '37', '37G', '597', '72', '88K'],
+        popularity: 95
       },
       {
         id: 'stop_vadapalani',
@@ -374,7 +374,7 @@ class DatabaseStore {
         landmarks: ['Vadapalani Murugan Temple', 'Forum Vijaya Mall'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['27B', '37', '570', '88K', '88M', 'M27', 'M88'],
+        routes: ['12B', '17D', '17E', '25', '27B', '37', '37G', '570', '88K', '88M', 'M27', 'M88'],
         popularity: 96
       },
       {
@@ -388,7 +388,7 @@ class DatabaseStore {
         landmarks: ['Ashok Nagar Metro', 'Udayam Theatre'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['570', '88K'],
+        routes: ['12B', '37', '37G', '570', '88K'],
         popularity: 90
       },
       {
@@ -402,7 +402,7 @@ class DatabaseStore {
         landmarks: ['TNEB Substation'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['27B', '570', '88K'],
+        routes: ['25', '27B', '37', '37G', '570', '88K'],
         popularity: 88
       },
       {
@@ -430,8 +430,8 @@ class DatabaseStore {
         landmarks: ['Kodambakkam Flyover', 'Meenakshi College'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['23C', '25', '26', '27B', '88K'],
-        popularity: 94
+        routes: ['17D', '17E', '23C', '25', '26', '26B', '27B', '37', '37G', '597', '72', '88K'],
+        popularity: 96
       },
       {
         id: 'stop_valluvar_kottam',
@@ -458,7 +458,7 @@ class DatabaseStore {
         landmarks: ['Guindy Metro', 'Race Course', 'IIT Gate'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['154', '170C', '18A', '21E', '21G', '21X', '23V', '45A', '45B', '45E', '570', '60A', '78', 'S27'],
+        routes: ['154', '170C', '18A', '21E', '21G', '21X', '23V', '45A', '45B', '45E', '570', '60A', '78', '88A', 'S27'],
         popularity: 97
       },
       {
@@ -500,7 +500,7 @@ class DatabaseStore {
         landmarks: ['Mandaveli Railway Station'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['21'],
+        routes: ['12B', '21'],
         popularity: 88
       },
       {
@@ -612,7 +612,7 @@ class DatabaseStore {
         landmarks: ['Stanley Hospital'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['32A', '32B', '37', '44', '57'],
+        routes: ['32A', '32B', '37', '37G', '44', '57'],
         popularity: 92
       },
       {
@@ -920,7 +920,7 @@ class DatabaseStore {
         landmarks: ['Prasad Labs'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: [],
+        routes: ['17E'],
         popularity: 87
       },
       {
@@ -1048,6 +1048,48 @@ class DatabaseStore {
         hasShelter: true,
         routes: ['591'],
         popularity: 82
+      },
+      {
+        id: 'stop_foreshore_estate',
+        name: 'Foreshore Estate Bus Stand',
+        nameTamil: 'பட்டினப்பாக்கம்',
+        lat: 13.03,
+        lng: 80.278,
+        area: 'Foreshore Estate',
+        district: 'Chennai',
+        landmarks: ['Pattinapakkam Beach'],
+        wheelchairAccessible: true,
+        hasShelter: true,
+        routes: ['12B'],
+        popularity: 92
+      },
+      {
+        id: 'stop_kalaignar_nagar',
+        name: 'Kalaignar Nagar',
+        nameTamil: 'கலைஞர் நகர்',
+        lat: 13.045,
+        lng: 80.19,
+        area: 'Kalaignar Nagar',
+        district: 'Chennai',
+        landmarks: ['Kalaignar Nagar Terminal'],
+        wheelchairAccessible: true,
+        hasShelter: true,
+        routes: ['17D'],
+        popularity: 88
+      },
+      {
+        id: 'stop_nandambakkam',
+        name: 'Nandambakkam Bus Stop',
+        nameTamil: 'நந்தம்பாக்கம்',
+        lat: 13.018,
+        lng: 80.185,
+        area: 'Nandambakkam',
+        district: 'Chennai',
+        landmarks: ['Trade Centre'],
+        wheelchairAccessible: true,
+        hasShelter: true,
+        routes: ['88A'],
+        popularity: 89
       }
     ];
   }
@@ -1145,6 +1187,21 @@ class DatabaseStore {
         type: 'ORDINARY'
       },
       {
+        id: 'route_12b',
+        routeNumber: '12B',
+        operator: 'MTC',
+        origin: 'Vadapalani',
+        originTamil: 'வடபழனி',
+        destination: 'Foreshore Estate',
+        destinationTamil: 'பட்டினப்பாக்கம்',
+        stops: ['stop_vadapalani', 'stop_ashok_pillar', 'stop_t_nagar_terminus', 'stop_mandaveli', 'stop_foreshore_estate'],
+        polyline: [[13.05, 80.2121], [13.0352, 80.2123], [13.0418, 80.2341], [13.028, 80.26], [13.03, 80.278]],
+        avgDurationMins: 40,
+        fareRs: 16,
+        frequencyMins: 10,
+        type: 'ORDINARY'
+      },
+      {
         id: 'route_13',
         routeNumber: '13',
         operator: 'MTC',
@@ -1171,6 +1228,36 @@ class DatabaseStore {
         polyline: [[13.0722, 80.28], [13.0694, 80.1948]],
         avgDurationMins: 35,
         fareRs: 16,
+        frequencyMins: 10,
+        type: 'ORDINARY'
+      },
+      {
+        id: 'route_17d',
+        routeNumber: '17D',
+        operator: 'MTC',
+        origin: 'High Court (Broadway)',
+        originTamil: 'பிராட்வே',
+        destination: 'Kalaignar Nagar',
+        destinationTamil: 'கலைஞர் நகர்',
+        stops: ['stop_broadway', 'stop_island_ground', 'stop_kodambakkam', 'stop_vadapalani', 'stop_kalaignar_nagar'],
+        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.0514, 80.2245], [13.05, 80.2121], [13.045, 80.19]],
+        avgDurationMins: 45,
+        fareRs: 18,
+        frequencyMins: 12,
+        type: 'ORDINARY'
+      },
+      {
+        id: 'route_17e',
+        routeNumber: '17E',
+        operator: 'MTC',
+        origin: 'Broadway',
+        originTamil: 'பிராட்வே',
+        destination: 'Saligramam',
+        destinationTamil: 'சாலிகிராமம்',
+        stops: ['stop_broadway', 'stop_island_ground', 'stop_kodambakkam', 'stop_vadapalani', 'stop_saligramam'],
+        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.0514, 80.2245], [13.05, 80.2121], [13.055, 80.195]],
+        avgDurationMins: 45,
+        fareRs: 18,
         frequencyMins: 10,
         type: 'ORDINARY'
       },
@@ -1435,10 +1522,10 @@ class DatabaseStore {
         operator: 'MTC',
         origin: 'Anna Square',
         originTamil: 'அண்ணா சதுக்கம்',
-        destination: 'Poonamallee',
+        destination: 'Poonamallee via Valasaravakkam & Kodambakkam',
         destinationTamil: 'பூவிருந்தவல்லி',
-        stops: ['stop_island_ground', 'stop_kodambakkam', 'stop_valasaravakkam', 'stop_porur', 'stop_poonamallee'],
-        polyline: [[13.0722, 80.28], [13.0514, 80.2245], [13.0425, 80.1885], [13.0335, 80.1582], [13.0485, 80.0912]],
+        stops: ['stop_island_ground', 'stop_kodambakkam', 'stop_power_house', 'stop_vadapalani', 'stop_valasaravakkam', 'stop_porur', 'stop_poonamallee'],
+        polyline: [[13.0722, 80.28], [13.0514, 80.2245], [13.0482, 80.2175], [13.05, 80.2121], [13.0425, 80.1885], [13.0335, 80.1582], [13.0485, 80.0912]],
         avgDurationMins: 60,
         fareRs: 24,
         frequencyMins: 10,
@@ -1448,12 +1535,12 @@ class DatabaseStore {
         id: 'route_26',
         routeNumber: '26',
         operator: 'MTC',
-        origin: 'Royapuram',
-        originTamil: 'ராயபுரம்',
-        destination: 'Iyyappanthangal',
+        origin: 'Broadway',
+        originTamil: 'பிராட்வே',
+        destination: 'Iyyappanthangal via Valasaravakkam & Kodambakkam',
         destinationTamil: 'அய்யப்பன்தாங்கல்',
-        stops: ['stop_royapuram', 'stop_broadway', 'stop_kodambakkam', 'stop_iyyappanthangal'],
-        polyline: [[13.1112, 80.2925], [13.0878, 80.2835], [13.0514, 80.2245], [13.0385, 80.1385]],
+        stops: ['stop_broadway', 'stop_kodambakkam', 'stop_valasaravakkam', 'stop_porur', 'stop_iyyappanthangal'],
+        polyline: [[13.0878, 80.2835], [13.0514, 80.2245], [13.0425, 80.1885], [13.0335, 80.1582], [13.0385, 80.1385]],
         avgDurationMins: 55,
         fareRs: 22,
         frequencyMins: 10,
@@ -1463,12 +1550,12 @@ class DatabaseStore {
         id: 'route_26b',
         routeNumber: '26B',
         operator: 'MTC',
-        origin: 'Royapuram',
-        originTamil: 'ராயபுரம்',
-        destination: 'Mangadu',
+        origin: 'Broadway',
+        originTamil: 'பிராட்வே',
+        destination: 'Mangadu via Valasaravakkam & Kodambakkam',
         destinationTamil: 'மாங்காடு',
-        stops: ['stop_royapuram', 'stop_broadway', 'stop_porur', 'stop_mangadu'],
-        polyline: [[13.1112, 80.2925], [13.0878, 80.2835], [13.0335, 80.1582], [13.0112, 80.1154]],
+        stops: ['stop_broadway', 'stop_kodambakkam', 'stop_valasaravakkam', 'stop_porur', 'stop_mangadu'],
+        polyline: [[13.0878, 80.2835], [13.0514, 80.2245], [13.0425, 80.1885], [13.0335, 80.1582], [13.0112, 80.1154]],
         avgDurationMins: 55,
         fareRs: 22,
         frequencyMins: 12,
@@ -1645,13 +1732,28 @@ class DatabaseStore {
         operator: 'MTC',
         origin: 'Vallalar Nagar',
         originTamil: 'வள்ளலார் நகர்',
-        destination: 'Poonamallee',
+        destination: 'Poonamallee via Valasaravakkam & Kodambakkam',
         destinationTamil: 'பூவிருந்தவல்லி',
-        stops: ['stop_vallalar_nagar', 'stop_vadapalani', 'stop_porur', 'stop_poonamallee'],
-        polyline: [[13.105, 80.282], [13.05, 80.2121], [13.0335, 80.1582], [13.0485, 80.0912]],
+        stops: ['stop_vallalar_nagar', 'stop_kodambakkam', 'stop_power_house', 'stop_ashok_pillar', 'stop_vadapalani', 'stop_valasaravakkam', 'stop_porur', 'stop_poonamallee'],
+        polyline: [[13.105, 80.282], [13.0514, 80.2245], [13.0482, 80.2175], [13.0352, 80.2123], [13.05, 80.2121], [13.0425, 80.1885], [13.0335, 80.1582], [13.0485, 80.0912]],
         avgDurationMins: 55,
         fareRs: 22,
         frequencyMins: 10,
+        type: 'ORDINARY'
+      },
+      {
+        id: 'route_37g',
+        routeNumber: '37G',
+        operator: 'MTC',
+        origin: 'Vallalar Nagar (V. Nagar)',
+        originTamil: 'வள்ளலார் நகர்',
+        destination: 'Poonamallee (Valasaravakkam ↔ Kodambakkam Main Bus)',
+        destinationTamil: 'பூவிருந்தவல்லி',
+        stops: ['stop_vallalar_nagar', 'stop_kodambakkam', 'stop_power_house', 'stop_ashok_pillar', 'stop_vadapalani', 'stop_valasaravakkam', 'stop_porur', 'stop_poonamallee'],
+        polyline: [[13.105, 80.282], [13.0514, 80.2245], [13.0482, 80.2175], [13.0352, 80.2123], [13.05, 80.2121], [13.0425, 80.1885], [13.0335, 80.1582], [13.0485, 80.0912]],
+        avgDurationMins: 55,
+        fareRs: 22,
+        frequencyMins: 8,
         type: 'ORDINARY'
       },
       {
@@ -1885,10 +1987,10 @@ class DatabaseStore {
         operator: 'MTC',
         origin: 'T. Nagar',
         originTamil: 'தி. நகர்',
-        destination: 'Thiruverkadu',
+        destination: 'Thiruverkadu via Valasaravakkam & Kodambakkam',
         destinationTamil: 'திருவேற்காடு',
-        stops: ['stop_t_nagar_terminus', 'stop_thiruverkadu'],
-        polyline: [[13.0418, 80.2341], [13.072, 80.122]],
+        stops: ['stop_t_nagar_terminus', 'stop_kodambakkam', 'stop_valasaravakkam', 'stop_thiruverkadu'],
+        polyline: [[13.0418, 80.2341], [13.0514, 80.2245], [13.0425, 80.1885], [13.072, 80.122]],
         avgDurationMins: 40,
         fareRs: 16,
         frequencyMins: 15,
@@ -1940,12 +2042,27 @@ class DatabaseStore {
         type: 'ORDINARY'
       },
       {
+        id: 'route_88a',
+        routeNumber: '88A',
+        operator: 'MTC',
+        origin: 'High Court (Broadway)',
+        originTamil: 'பிராட்வே',
+        destination: 'Nandambakkam',
+        destinationTamil: 'நந்தம்பாக்கம்',
+        stops: ['stop_broadway', 'stop_island_ground', 'stop_guindy', 'stop_nandambakkam'],
+        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.0067, 80.202], [13.018, 80.185]],
+        avgDurationMins: 40,
+        fareRs: 16,
+        frequencyMins: 12,
+        type: 'ORDINARY'
+      },
+      {
         id: 'route_88k',
         routeNumber: '88K',
         operator: 'MTC',
         origin: 'Kundrathur',
         originTamil: 'குன்றத்தூர்',
-        destination: 'Broadway',
+        destination: 'Broadway via Valasaravakkam & Kodambakkam',
         destinationTamil: 'பிராட்வே',
         stops: ['stop_kundrathur', 'stop_mangadu', 'stop_porur', 'stop_ramapuram', 'stop_valasaravakkam', 'stop_vadapalani', 'stop_ashok_pillar', 'stop_power_house', 'stop_kodambakkam_rs', 'stop_kodambakkam'],
         polyline: [[12.9978, 80.0972], [13.0112, 80.1154], [13.0335, 80.1582], [13.0385, 80.1785], [13.0425, 80.1885], [13.05, 80.2121], [13.0352, 80.2123], [13.0482, 80.2175], [13.0518, 80.2268], [13.0514, 80.2245]],
@@ -2708,12 +2825,12 @@ class DatabaseStore {
         id: 'route_597',
         routeNumber: '597',
         operator: 'MTC',
-        origin: 'T. Nagar',
-        originTamil: 'தி. நகர்',
-        destination: 'Thiruvallur',
-        destinationTamil: 'திருவள்ளூர்',
-        stops: ['stop_t_nagar_terminus', 'stop_thiruvallur'],
-        polyline: [[13.0418, 80.2341], [13.145, 79.91]],
+        origin: 'Thiruvallur',
+        originTamil: 'திருவள்ளூர்',
+        destination: 'T. Nagar via Valasaravakkam & Kodambakkam',
+        destinationTamil: 'தி. நகர்',
+        stops: ['stop_thiruvallur', 'stop_poonamallee', 'stop_porur', 'stop_valasaravakkam', 'stop_kodambakkam', 'stop_t_nagar_terminus'],
+        polyline: [[13.145, 79.91], [13.0485, 80.0912], [13.0335, 80.1582], [13.0425, 80.1885], [13.0514, 80.2245], [13.0418, 80.2341]],
         avgDurationMins: 75,
         fareRs: 30,
         frequencyMins: 15,
@@ -2769,13 +2886,12 @@ class DatabaseStore {
 
   private seedVehicles() {
     this.vehicles = [
+      { id: 'TN-01-N-3707', busNumber: '37G', routeId: 'route_37g', operator: 'MTC', lat: 13.0425, lng: 80.1885, heading: 85, speedKmh: 34, previousStopId: 'stop_valasaravakkam', currentStopId: 'stop_valasaravakkam', nextStopId: 'stop_kodambakkam', remainingStopsCount: 4, delayMins: 0, occupancy: 'MEDIUM', isLive: true, lastUpdated: new Date().toISOString() },
       { id: 'TN-01-N-8812', busNumber: '88K', routeId: 'route_88k', operator: 'MTC', lat: 13.0335, lng: 80.1582, heading: 85, speedKmh: 32, previousStopId: 'stop_mangadu', currentStopId: 'stop_porur', nextStopId: 'stop_ramapuram', remainingStopsCount: 6, delayMins: 1, occupancy: 'MEDIUM', isLive: true, lastUpdated: new Date().toISOString() },
       { id: 'TN-01-N-2107', busNumber: '21G', routeId: 'route_21g', operator: 'MTC', lat: 13.0067, lng: 80.2020, heading: 180, speedKmh: 35, previousStopId: 'stop_island_ground', currentStopId: 'stop_guindy', nextStopId: 'stop_tambaram_west', remainingStopsCount: 2, delayMins: 0, occupancy: 'HIGH', isLive: true, lastUpdated: new Date().toISOString() },
-      { id: 'TN-01-N-1107', busNumber: '11G', routeId: 'route_11g', operator: 'MTC', lat: 13.0482, lng: 80.2175, heading: 90, speedKmh: 30, previousStopId: 'stop_ashok_pillar', currentStopId: 'stop_power_house', nextStopId: 'stop_kodambakkam_rs', remainingStopsCount: 4, delayMins: 0, occupancy: 'LOW', isLive: true, lastUpdated: new Date().toISOString() },
-      { id: 'TN-01-N-9842', busNumber: '570', routeId: 'route_570', operator: 'MTC', lat: 13.0482, lng: 80.2175, heading: 175, speedKmh: 34, previousStopId: 'stop_vadapalani', currentStopId: 'stop_power_house', nextStopId: 'stop_ashok_pillar', remainingStopsCount: 8, delayMins: 2, occupancy: 'MEDIUM', isLive: true, lastUpdated: new Date().toISOString() },
-      { id: 'TN-01-N-4412', busNumber: '23C', routeId: 'route_23c', operator: 'MTC', lat: 13.0514, lng: 80.2245, heading: 310, speedKmh: 28, previousStopId: 'stop_t_nagar_terminus', currentStopId: 'stop_kodambakkam', nextStopId: 'stop_valluvar_kottam', remainingStopsCount: 1, delayMins: 0, occupancy: 'HIGH', isLive: true, lastUpdated: new Date().toISOString() },
-      { id: 'TN-01-N-1901', busNumber: '19A', routeId: 'route_19a', operator: 'MTC', lat: 13.0418, lng: 80.2341, heading: 170, speedKmh: 38, previousStopId: 'stop_t_nagar_terminus', currentStopId: 'stop_t_nagar_terminus', nextStopId: 'stop_siruseri', remainingStopsCount: 1, delayMins: 0, occupancy: 'LOW', isLive: true, lastUpdated: new Date().toISOString() },
-      { id: 'TN-01-N-0101', busNumber: '1', routeId: 'route_1', operator: 'MTC', lat: 13.0878, lng: 80.2835, heading: 190, speedKmh: 30, previousStopId: 'stop_broadway', currentStopId: 'stop_broadway', nextStopId: 'stop_island_ground', remainingStopsCount: 3, delayMins: 0, occupancy: 'MEDIUM', isLive: true, lastUpdated: new Date().toISOString() }
+      { id: 'TN-01-N-1202', busNumber: '12B', routeId: 'route_12b', operator: 'MTC', lat: 13.0500, lng: 80.2121, heading: 90, speedKmh: 30, previousStopId: 'stop_vadapalani', currentStopId: 'stop_ashok_pillar', nextStopId: 'stop_t_nagar_terminus', remainingStopsCount: 3, delayMins: 0, occupancy: 'LOW', isLive: true, lastUpdated: new Date().toISOString() },
+      { id: 'TN-01-N-1704', busNumber: '17D', routeId: 'route_17d', operator: 'MTC', lat: 13.0878, lng: 80.2835, heading: 240, speedKmh: 28, previousStopId: 'stop_broadway', currentStopId: 'stop_broadway', nextStopId: 'stop_kodambakkam', remainingStopsCount: 4, delayMins: 0, occupancy: 'MEDIUM', isLive: true, lastUpdated: new Date().toISOString() },
+      { id: 'TN-01-N-8801', busNumber: '88A', routeId: 'route_88a', operator: 'MTC', lat: 13.0067, lng: 80.2020, heading: 270, speedKmh: 32, previousStopId: 'stop_guindy', currentStopId: 'stop_nandambakkam', nextStopId: 'stop_nandambakkam', remainingStopsCount: 1, delayMins: 0, occupancy: 'LOW', isLive: true, lastUpdated: new Date().toISOString() }
     ];
   }
 

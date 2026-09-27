@@ -307,6 +307,18 @@ export const JourneyPlannerPage: React.FC = () => {
             <button onClick={() => handleSelectQuickPair('CMBT Koyambedu Bus Terminus', 13.0694, 80.1948, 'Island Ground / Anna Square', 13.0722, 80.2800)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
               Bus 27B: CMBT ➔ Anna Square
             </button>
+            <button onClick={() => handleSelectQuickPair('Valasaravakkam Bus Stop', 13.0425, 80.1885, 'Kodambakkam Bus Stop', 13.0514, 80.2245)} className="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 shrink-0 font-bold">
+              Bus 37G: Valasaravakkam ➔ Kodambakkam (Main Bus)
+            </button>
+            <button onClick={() => handleSelectQuickPair('Vadapalani Bus Depot', 13.0500, 80.2121, 'Foreshore Estate Bus Stand', 13.0300, 80.2780)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
+              Bus 12B: Vadapalani ➔ Foreshore Estate
+            </button>
+            <button onClick={() => handleSelectQuickPair('Broadway Bus Terminus (High Court)', 13.0878, 80.2835, 'Kalaignar Nagar', 13.0450, 80.1900)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
+              Bus 17D: High Court ➔ Kalaignar Nagar
+            </button>
+            <button onClick={() => handleSelectQuickPair('Broadway Bus Terminus (High Court)', 13.0878, 80.2835, 'Nandambakkam Bus Stop', 13.0180, 80.1850)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
+              Bus 88A: High Court ➔ Nandambakkam
+            </button>
             <button onClick={() => handleSelectQuickPair('Perambur Bus Stand', 13.1095, 80.2485, 'Besant Nagar Bus Depot', 13.0003, 80.2667)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
               Bus 29C: Perambur ➔ Besant Nagar
             </button>

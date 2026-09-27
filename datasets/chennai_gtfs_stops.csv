@@ -1,5 +1,5 @@
 ﻿stop_id,stop_name,stop_name_tamil,stop_lat,stop_lon,area,district,wheelchair_boarding
-stop_broadway,Broadway Bus Terminus,பிராட்வே பேருந்து நிலையம்,13.0878,80.2835,Broadway,Chennai,1
+stop_broadway,Broadway Bus Terminus (High Court),பிராட்வே பேருந்து நிலையம்,13.0878,80.2835,Broadway,Chennai,1
 stop_island_ground,Island Ground / Anna Square,தீவு திடல் / அண்ணா சதுக்கம்,13.0722,80.28,Triplicane,Chennai,1
 stop_royapuram,Royapuram Bus Stand,ராயபுரம் பேருந்து நிலையம்,13.1112,80.2925,Royapuram,Chennai,1
 stop_thiruvanmiyur,Thiruvanmiyur Bus Depot,திருவான்மியூர்,12.983,80.2594,Thiruvanmiyur,Chennai,1
@@ -73,3 +73,6 @@ stop_sunguvarchathiram,Sunguvarchathiram,சுங்குவாா்சத்
 stop_arani,Arani Bus Stand,ஆரணி,13.25,80.09,Arani,Tiruvallur,1
 stop_mamallapuram,Mamallapuram Bus Stand,மாமல்லபுரம்,12.62,80.19,Mamallapuram,Chengalpattu,1
 stop_perambakkam,Perambakkam,பெரம்பாக்கம்,13.015,79.9,Perambakkam,Tiruvallur,1
+stop_foreshore_estate,Foreshore Estate Bus Stand,பட்டினப்பாக்கம்,13.03,80.278,Foreshore Estate,Chennai,1
+stop_kalaignar_nagar,Kalaignar Nagar,கலைஞர் நகர்,13.045,80.19,Kalaignar Nagar,Chennai,1
+stop_nandambakkam,Nandambakkam Bus Stop,நந்தம்பாக்கம்,13.018,80.185,Nandambakkam,Chennai,1

@@ -5,8 +5,11 @@ route_2b,MTC,2B,K. Kannadasan Nagar to K. Kannadasan Nagar,3,18
 route_3,MTC,3,T. Nagar to Thiruvanmiyur,3,16
 route_4,MTC,4,Island Ground to Ennore,3,22
 route_8b,MTC,8B,Island Ground to Thiru.Vi.Ka. Nagar,3,16
+route_12b,MTC,12B,Vadapalani to Foreshore Estate,3,16
 route_13,MTC,13,T. Nagar to Island Ground,3,14
 route_15,MTC,15,Island Ground to CMBT Koyambedu,3,16
+route_17d,MTC,17D,High Court (Broadway) to Kalaignar Nagar,3,18
+route_17e,MTC,17E,Broadway to Saligramam,3,18
 route_18a,MTC,18A,Royapuram to Kilambakkam KCBT,3,35
 route_19,MTC,19,T. Nagar to Thiruporur,3,32
 route_19a,MTC,19A,T. Nagar to Siruseri IT Corridor,3,26
@@ -24,9 +27,9 @@ route_22,MTC,22,Anna Square to Korattur / Villivakkam,3,18
 route_23c,MTC,23C,Besant Nagar to Ayanavaram,3,18
 route_23v,MTC,23V,Velachery to Villivakkam,3,20
 route_24a,MTC,24A,Vivekananda House to Anna Nagar West,3,18
-route_25,MTC,25,Anna Square to Poonamallee,3,24
-route_26,MTC,26,Royapuram to Iyyappanthangal,3,22
-route_26b,MTC,26B,Royapuram to Mangadu,3,22
+route_25,MTC,25,Anna Square to Poonamallee via Valasaravakkam & Kodambakkam,3,24
+route_26,MTC,26,Broadway to Iyyappanthangal via Valasaravakkam & Kodambakkam,3,22
+route_26b,MTC,26B,Broadway to Mangadu via Valasaravakkam & Kodambakkam,3,22
 route_26g,MTC,26G,Royapuram to Iyyappanthangal,3,22
 route_26k,MTC,26K,Royapuram to Iyyappanthangal,3,22
 route_26m,MTC,26M,Royapuram to Mogalivakkam,3,20
@@ -38,7 +41,8 @@ route_31g,MTC,31G,Tambaram West to Medavakkam Road,3,14
 route_32a,MTC,32A,Tondiarpet to Vivekananda House,3,15
 route_32b,MTC,32B,Korukkupet to Vivekananda House,3,15
 route_34,MTC,34,Ambattur Industrial Estate to Thiruvotriyur,3,20
-route_37,MTC,37,Vallalar Nagar to Poonamallee,3,22
+route_37,MTC,37,Vallalar Nagar to Poonamallee via Valasaravakkam & Kodambakkam,3,22
+route_37g,MTC,37G,Vallalar Nagar (V. Nagar) to Poonamallee (Valasaravakkam ↔ Kodambakkam Main Bus),3,22
 route_40a,MTC,40A,Anna Square to Pattabiram,3,26
 route_40h,MTC,40H,Anna Square to Pattabiram,3,24
 route_44,MTC,44,Island Ground to Manali,3,18
@@ -54,11 +58,12 @@ route_60a,MTC,60A,Royapuram to Kundrathur,3,24
 route_66,MTC,66,Tambaram West to Poonamallee,3,18
 route_66a,MTC,66A,Hasthinapuram to Kundrathur,3,15
 route_66j,MTC,66J,Tambaram West to Poonamallee,3,18
-route_72,MTC,72,T. Nagar to Thiruverkadu,3,16
+route_72,MTC,72,T. Nagar to Thiruverkadu via Valasaravakkam & Kodambakkam,3,16
 route_77,MTC,77,Avadi to CMBT Koyambedu,3,16
 route_78,MTC,78,CMBT Koyambedu to Thiruvanmiyur,3,18
 route_85,MTC,85,CMBT Koyambedu to Kundrathur,3,18
-route_88k,MTC,88K,Kundrathur to Broadway,3,22
+route_88a,MTC,88A,High Court (Broadway) to Nandambakkam,3,16
+route_88k,MTC,88K,Kundrathur to Broadway via Valasaravakkam & Kodambakkam,3,22
 route_88ket,MTC,88KET,Broadway to Nallur,3,25
 route_88m,MTC,88M,Vadapalani to Somangalam,3,22
 route_88r,MTC,88R,Broadway to Amarambedu,3,25
@@ -109,7 +114,7 @@ route_578,MTC,578,Poonamallee to Sunguvarchathiram,3,20
 route_580,MTC,580,Avadi to Arani,3,24
 route_588,MTC,588,Thiruvanmiyur to Mamallapuram,3,28
 route_591,MTC,591,Poonamallee to Perambakkam,3,22
-route_597,MTC,597,T. Nagar to Thiruvallur,3,30
+route_597,MTC,597,Thiruvallur to T. Nagar via Valasaravakkam & Kodambakkam,3,30
 route_m27,MTC,M27,CMBT Koyambedu to T. Nagar,3,14
 route_m88,MTC,M88,Kundrathur to Vadapalani,3,15
 route_s27,MTC,S27,Porur to Guindy TVK Estate,3,12
