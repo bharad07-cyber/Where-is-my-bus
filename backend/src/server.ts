@@ -41,6 +41,20 @@ app.post('/api/journey/plan', APIControllers.planJourney);
 app.post('/api/share', APIControllers.createShareToken);
 app.post('/api/sos', APIControllers.triggerSOS);
 
-app.listen(PORT, () => {
-  console.log(`[WHERE IS MY BUS BACKEND] Server running on http://localhost:${PORT}`);
+// Root fallback route
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ONLINE',
+    service: 'Where Is My Bus Backend API & GTFS Engine Service',
+    health: '/api/health',
+    routesCount: 114
+  });
 });
+
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`[WHERE IS MY BUS BACKEND] Server running on http://localhost:${PORT}`);
+  });
+}
+
+export default app;
