@@ -332,7 +332,7 @@ class DatabaseStore {
         landmarks: ['Ramachandra Hospital', 'Porur Lake'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['154', '25', '26', '26B', '26M', '26R', '37', '37G', '54', '597', '85', '88K', 'S27'],
+        routes: ['154', '25', '26', '26B', '26M', '26R', '37', '54', '597', '85', '88K', 'S27'],
         popularity: 95
       },
       {
@@ -388,7 +388,7 @@ class DatabaseStore {
         landmarks: ['Ashok Nagar Metro', 'Udayam Theatre'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['12B', '37', '37G', '570', '88K'],
+        routes: ['12B', '37', '570', '88K'],
         popularity: 90
       },
       {
@@ -430,7 +430,7 @@ class DatabaseStore {
         landmarks: ['Kodambakkam Flyover', 'Meenakshi College'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['17D', '17E', '23C', '25', '26', '26B', '27B', '37', '37G', '597', '72', '88K'],
+        routes: ['23C', '25', '26', '26B', '27B', '37', '37G', '597', '72'],
         popularity: 96
       },
       {
@@ -444,7 +444,7 @@ class DatabaseStore {
         landmarks: ['Valluvar Kottam Memorial'],
         wheelchairAccessible: true,
         hasShelter: true,
-        routes: ['23C', '27B'],
+        routes: ['23C', '27B', '37G'],
         popularity: 93
       },
       {
@@ -1239,8 +1239,8 @@ class DatabaseStore {
         originTamil: 'பிராட்வே',
         destination: 'Kalaignar Nagar',
         destinationTamil: 'கலைஞர் நகர்',
-        stops: ['stop_broadway', 'stop_island_ground', 'stop_kodambakkam', 'stop_vadapalani', 'stop_kalaignar_nagar'],
-        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.0514, 80.2245], [13.05, 80.2121], [13.045, 80.19]],
+        stops: ['stop_broadway', 'stop_island_ground', 'stop_vadapalani', 'stop_kalaignar_nagar'],
+        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.05, 80.2121], [13.045, 80.19]],
         avgDurationMins: 45,
         fareRs: 18,
         frequencyMins: 12,
@@ -1254,8 +1254,8 @@ class DatabaseStore {
         originTamil: 'பிராட்வே',
         destination: 'Saligramam',
         destinationTamil: 'சாலிகிராமம்',
-        stops: ['stop_broadway', 'stop_island_ground', 'stop_kodambakkam', 'stop_vadapalani', 'stop_saligramam'],
-        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.0514, 80.2245], [13.05, 80.2121], [13.055, 80.195]],
+        stops: ['stop_broadway', 'stop_island_ground', 'stop_vadapalani', 'stop_saligramam'],
+        polyline: [[13.0878, 80.2835], [13.0722, 80.28], [13.05, 80.2121], [13.055, 80.195]],
         avgDurationMins: 45,
         fareRs: 18,
         frequencyMins: 10,
@@ -1749,8 +1749,8 @@ class DatabaseStore {
         originTamil: 'வள்ளலார் நகர்',
         destination: 'Poonamallee (Valasaravakkam ↔ Kodambakkam Main Bus)',
         destinationTamil: 'பூவிருந்தவல்லி',
-        stops: ['stop_vallalar_nagar', 'stop_kodambakkam', 'stop_power_house', 'stop_ashok_pillar', 'stop_vadapalani', 'stop_valasaravakkam', 'stop_porur', 'stop_poonamallee'],
-        polyline: [[13.105, 80.282], [13.0514, 80.2245], [13.0482, 80.2175], [13.0352, 80.2123], [13.05, 80.2121], [13.0425, 80.1885], [13.0335, 80.1582], [13.0485, 80.0912]],
+        stops: ['stop_vallalar_nagar', 'stop_valasaravakkam', 'stop_vadapalani', 'stop_power_house', 'stop_kodambakkam', 'stop_valluvar_kottam', 'stop_poonamallee'],
+        polyline: [[13.105, 80.282], [13.0425, 80.1885], [13.05, 80.2121], [13.0482, 80.2175], [13.0514, 80.2245], [13.0583, 80.2415], [13.0485, 80.0912]],
         avgDurationMins: 55,
         fareRs: 22,
         frequencyMins: 8,
@@ -2062,10 +2062,10 @@ class DatabaseStore {
         operator: 'MTC',
         origin: 'Kundrathur',
         originTamil: 'குன்றத்தூர்',
-        destination: 'Broadway via Valasaravakkam & Kodambakkam',
+        destination: 'Broadway via Vadapalani',
         destinationTamil: 'பிராட்வே',
-        stops: ['stop_kundrathur', 'stop_mangadu', 'stop_porur', 'stop_ramapuram', 'stop_valasaravakkam', 'stop_vadapalani', 'stop_ashok_pillar', 'stop_power_house', 'stop_kodambakkam_rs', 'stop_kodambakkam'],
-        polyline: [[12.9978, 80.0972], [13.0112, 80.1154], [13.0335, 80.1582], [13.0385, 80.1785], [13.0425, 80.1885], [13.05, 80.2121], [13.0352, 80.2123], [13.0482, 80.2175], [13.0518, 80.2268], [13.0514, 80.2245]],
+        stops: ['stop_kundrathur', 'stop_mangadu', 'stop_porur', 'stop_ramapuram', 'stop_valasaravakkam', 'stop_vadapalani', 'stop_ashok_pillar', 'stop_power_house', 'stop_kodambakkam_rs'],
+        polyline: [[12.9978, 80.0972], [13.0112, 80.1154], [13.0335, 80.1582], [13.0385, 80.1785], [13.0425, 80.1885], [13.05, 80.2121], [13.0352, 80.2123], [13.0482, 80.2175], [13.0518, 80.2268]],
         avgDurationMins: 45,
         fareRs: 22,
         frequencyMins: 10,
