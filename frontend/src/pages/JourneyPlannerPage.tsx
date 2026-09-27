@@ -301,14 +301,11 @@ export const JourneyPlannerPage: React.FC = () => {
             <button onClick={() => handleSelectQuickPair('T. Nagar Bus Terminus', 13.0418, 80.2341, 'Siruseri IT Park', 12.8285, 80.2185)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
               Bus 19A: T. Nagar ➔ Siruseri IT
             </button>
-            <button onClick={() => handleSelectQuickPair('Kundrathur Bus Stand', 12.9978, 80.0972, 'Kodambakkam Bus Stop', 13.0514, 80.2245)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
-              Bus 88K: Kundrathur ➔ Kodambakkam
-            </button>
-            <button onClick={() => handleSelectQuickPair('CMBT Koyambedu Bus Terminus', 13.0694, 80.1948, 'Island Ground / Anna Square', 13.0722, 80.2800)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
-              Bus 27B: CMBT ➔ Anna Square
-            </button>
             <button onClick={() => handleSelectQuickPair('Valasaravakkam Bus Stop', 13.0425, 80.1885, 'Kodambakkam Bus Stop', 13.0514, 80.2245)} className="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 shrink-0 font-bold">
               Bus 37G: Valasaravakkam ➔ Kodambakkam (Main Bus)
+            </button>
+            <button onClick={() => handleSelectQuickPair('Kundrathur Bus Stand', 12.9978, 80.0972, 'Broadway Bus Terminus (High Court)', 13.0878, 80.2835)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
+              Bus 88K: Kundrathur ➔ Broadway
             </button>
             <button onClick={() => handleSelectQuickPair('Vadapalani Bus Depot', 13.0500, 80.2121, 'Foreshore Estate Bus Stand', 13.0300, 80.2780)} className="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 shrink-0 font-medium">
               Bus 12B: Vadapalani ➔ Foreshore Estate
