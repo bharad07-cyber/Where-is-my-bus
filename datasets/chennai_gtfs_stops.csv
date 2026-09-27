@@ -1,0 +1,75 @@
+﻿stop_id,stop_name,stop_name_tamil,stop_lat,stop_lon,area,district,wheelchair_boarding
+stop_broadway,Broadway Bus Terminus,பிராட்வே பேருந்து நிலையம்,13.0878,80.2835,Broadway,Chennai,1
+stop_island_ground,Island Ground / Anna Square,தீவு திடல் / அண்ணா சதுக்கம்,13.0722,80.28,Triplicane,Chennai,1
+stop_royapuram,Royapuram Bus Stand,ராயபுரம் பேருந்து நிலையம்,13.1112,80.2925,Royapuram,Chennai,1
+stop_thiruvanmiyur,Thiruvanmiyur Bus Depot,திருவான்மியூர்,12.983,80.2594,Thiruvanmiyur,Chennai,1
+stop_t_nagar_terminus,T. Nagar Bus Terminus,தி. நகர் பேருந்து நிலையம்,13.0418,80.2341,T. Nagar,Chennai,1
+stop_kannadasan_nagar,K. Kannadasan Nagar,க. கண்ணதாசன் நகர்,13.1345,80.2465,Vyasarpadi,Chennai,1
+stop_kilambakkam,Kalaignar Centenary Bus Terminus (KCBT Kilambakkam),கிளம்பாக்கம் பேருந்து நிலையம்,12.8342,80.0768,Kilambakkam,Chengalpattu,1
+stop_thiruporur,Thiruporur Bus Stand,திருப்போரூர்,12.7245,80.1912,Thiruporur,Chengalpattu,1
+stop_siruseri,Siruseri IT Park,சிறுசேரி தகவல் தொழில்நுட்ப பூங்கா,12.8285,80.2185,Siruseri,Chengalpattu,1
+stop_ennore,Ennore Bus Stand,எண்ணூர்,13.2145,80.321,Ennore,Chennai,1
+stop_thiruvika_nagar,Thiru.Vi.Ka. Nagar,திரு.வி.க. நகர்,13.1154,80.2356,Perambur,Chennai,1
+stop_cmbt,CMBT Koyambedu Bus Terminus,கோயம்பேடு பேருந்து நிலையம்,13.0694,80.1948,Koyambedu,Chennai,1
+stop_besant_nagar,Besant Nagar Bus Depot,பெசன்ட் நகர்,13.0003,80.2667,Besant Nagar,Chennai,1
+stop_ayanavaram,Ayanavaram Bus Depot,அயனாவரம்,13.0985,80.2385,Ayanavaram,Chennai,1
+stop_perambur,Perambur Bus Stand,பெரம்பூர்,13.1095,80.2485,Perambur,Chennai,1
+stop_poonamallee,Poonamallee Bus Terminus,பூவிருந்தவல்லி,13.0485,80.0912,Poonamallee,Tiruvallur,1
+stop_iyyappanthangal,Iyyappanthangal Bus Depot,அய்யப்பன்தாங்கல்,13.0385,80.1385,Iyyappanthangal,Kanchipuram,1
+stop_ambattur_ie,Ambattur Industrial Estate,அம்பத்தூர் தொழிற்பேட்டை,13.1012,80.1612,Ambattur,Chennai,1
+stop_thiruvotriyur,Thiruvotriyur Bus Stand,திருவொற்றியூர்,13.1612,80.3012,Thiruvotriyur,Chennai,1
+stop_pattabiram,Pattabiram Bus Stop,பட்டாபிராம்,13.1245,80.0612,Pattabiram,Tiruvallur,1
+stop_kundrathur,Kundrathur Bus Stand,குன்றத்தூர் பேருந்து நிலையம்,12.9978,80.0972,Kundrathur,Kanchipuram,1
+stop_mangadu,Mangadu Bus Stop,மாங்காடு,13.0112,80.1154,Mangadu,Kanchipuram,1
+stop_porur,Porur Junction,போரூர் சந்திப்பு,13.0335,80.1582,Porur,Chennai,1
+stop_ramapuram,Ramapuram Bus Stop,ராமாபுரம்,13.0385,80.1785,Ramapuram,Chennai,1
+stop_valasaravakkam,Valasaravakkam Bus Stop,வலசரவாக்கம்,13.0425,80.1885,Valasaravakkam,Chennai,1
+stop_vadapalani,Vadapalani Bus Depot,வடபழனி பேருந்து நிலையம்,13.05,80.2121,Vadapalani,Chennai,1
+stop_ashok_pillar,Ashok Pillar Bus Stop,அசோக் தூண்,13.0352,80.2123,Ashok Nagar,Chennai,1
+stop_power_house,Power House Bus Stop,பவர் ஹவுஸ்,13.0482,80.2175,Kodambakkam,Chennai,1
+stop_kodambakkam_rs,Kodambakkam Railway Station,கோடம்பாக்கம் ரயில் நிலையம்,13.0518,80.2268,Kodambakkam,Chennai,1
+stop_kodambakkam,Kodambakkam Bus Stop,கோடம்பாக்கம்,13.0514,80.2245,Kodambakkam,Chennai,1
+stop_valluvar_kottam,Valluvar Kottam Junction,வள்ளுவர் கோட்டம்,13.0583,80.2415,Nungambakkam,Chennai,1
+stop_guindy,Guindy TVK Estate / Metro,கிண்டி,13.0067,80.202,Guindy,Chennai,1
+stop_tambaram_west,Tambaram West Bus Stand,தாம்பரம் மேற்கு,12.925,80.1171,Tambaram,Chennai,1
+stop_marina_beach,Marina Beach Light House,மெரினா கலங்கரை விளக்கம்,13.0398,80.2782,Marina,Chennai,1
+stop_mandaveli,Mandaveli Bus Stand,மந்தவெளி,13.028,80.26,Mandaveli,Chennai,1
+stop_kannagi_nagar,Kannagi Nagar SCB,கண்ணகி நகர்,12.935,80.23,Kannagi Nagar,Chennai,1
+stop_velachery,Velachery Bus Terminus,வேளச்சேரி,12.978,80.222,Velachery,Chennai,1
+stop_korattur,Korattur / Villivakkam Bus Stand,கொரட்டூர்,13.11,80.19,Korattur,Chennai,1
+stop_vivekananda_house,Vivekananda House (Ice House),விவேகானந்தர் இல்லம்,13.053,80.28,Triplicane,Chennai,1
+stop_anna_nagar_west,Anna Nagar West Bus Depot,அண்ணா நகர் மேற்கு,13.088,80.208,Anna Nagar,Chennai,1
+stop_tondiarpet,Tondiarpet Bus Depot,தண்டையார்பேட்டை,13.128,80.288,Tondiarpet,Chennai,1
+stop_korukkupet,Korukkupet Railway Station,கொருக்குப்பேட்டை,13.118,80.278,Korukkupet,Chennai,1
+stop_vallalar_nagar,Vallalar Nagar (Mint) Bus Stand,வள்ளலார் நகர்,13.105,80.282,Mint,Chennai,1
+stop_medavakkam_rd,Medavakkam Road Junction,மேடவாக்கம்,12.918,80.192,Medavakkam,Chennai,1
+stop_manali,Manali Bus Stand,மணலி,13.168,80.262,Manali,Chennai,1
+stop_madipakkam,Madipakkam Bus Stand,மடிப்பாக்கம்,12.965,80.198,Madipakkam,Chennai,1
+stop_kilkattalai,Kilkattalai Bus Stand,கீழ்க்கட்டளை,12.955,80.188,Kilkattalai,Chennai,1
+stop_icf,ICF / Villivakkam,ஐ.சி.எஃப்,13.098,80.218,Villivakkam,Chennai,1
+stop_thiruverkadu,Thiruverkadu Bus Stand,திருவேற்காடு,13.072,80.122,Thiruverkadu,Tiruvallur,1
+stop_redhills,Redhills Bus Terminus,ரெட்ஹில்ஸ்,13.198,80.198,Redhills,Tiruvallur,1
+stop_hasthinapuram,Hasthinapuram Bus Stand,ஹஸ்தினாபுரம்,12.945,80.145,Hasthinapuram,Chennai,1
+stop_avadi,Avadi Bus Terminus,ஆவடி,13.115,80.1,Avadi,Tiruvallur,1
+stop_nallur,Nallur Bus Stop,நல்லூர்,12.98,80.06,Nallur,Kanchipuram,1
+stop_somangalam,Somangalam Bus Stop,சோமங்கலம்,12.96,80.04,Somangalam,Kanchipuram,1
+stop_amarambedu,Amarambedu Bus Stop,அமரம்பேடு,12.95,80.03,Amarambedu,Kanchipuram,1
+stop_adyar,Adyar Bus Depot,அடையாறு,13.006,80.257,Adyar,Chennai,1
+stop_kelambakkam,Kelambakkam Bus Stand,கேளம்பாக்கம்,12.785,80.222,Kelambakkam,Chengalpattu,1
+stop_pudupakkam,Pudupakkam Junction,புதுப்பாக்கம்,12.805,80.208,Pudupakkam,Chengalpattu,1
+stop_semmancheri,Semmancheri SCB,செம்மஞ்சேரி,12.868,80.225,Semmancheri,Chennai,1
+stop_perumbakkam,Perumbakkam SCB,பெரும்பாக்கம்,12.895,80.195,Perumbakkam,Chennai,1
+stop_kovalam,Kovalam Bus Stand,கோவளம்,12.79,80.25,Kovalam,Chengalpattu,1
+stop_maraimalai_nagar,Maraimalai Nagar IE,மறைமலை நகர்,12.795,80.025,Maraimalai Nagar,Chengalpattu,1
+stop_minjur,Minjur Bus Stand,மீஞ்சூர்,13.28,80.26,Minjur,Tiruvallur,1
+stop_vinayagapuram,Vinayagapuram Bus Stop,விநாயகபுரம்,13.135,80.215,Kolathur,Chennai,1
+stop_saligramam,Saligramam Bus Stop,சாலிகிராமம்,13.055,80.195,Saligramam,Chennai,1
+stop_mogalivakkam,Mogalivakkam Bus Stop,முகலிவாக்கம்,13.025,80.165,Mogalivakkam,Chennai,1
+stop_madhavaram,Madhavaram MMBT,மாதவரம்,13.145,80.235,Madhavaram,Chennai,1
+stop_guduvanchery,Guduvanchery Bus Stand,கூடுவாஞ்சேரி,12.845,80.065,Guduvanchery,Chengalpattu,1
+stop_thiruvallur,Thiruvallur Bus Terminus,திருவள்ளூர்,13.145,79.91,Thiruvallur,Thiruvallur,1
+stop_chengalpattu,Chengalpattu NT Bus Stand,செங்கல்பட்டு,12.682,79.982,Chengalpattu,Chengalpattu,1
+stop_sunguvarchathiram,Sunguvarchathiram,சுங்குவாா்சத்திரம்,12.975,79.88,Sunguvarchathiram,Kanchipuram,1
+stop_arani,Arani Bus Stand,ஆரணி,13.25,80.09,Arani,Tiruvallur,1
+stop_mamallapuram,Mamallapuram Bus Stand,மாமல்லபுரம்,12.62,80.19,Mamallapuram,Chengalpattu,1
+stop_perambakkam,Perambakkam,பெரம்பாக்கம்,13.015,79.9,Perambakkam,Tiruvallur,1
